@@ -1,0 +1,57 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background: #A7D7C5;
+}
+
+div.card {
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  background: #fff;
+  border-radius: 3px;
+  color: #233142;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px black;
+  margin: auto;
+  padding: 0;
+}
+
+.title {
+  font-size: 16px;
+  color: #233142;
+  padding-left: 1em;
+}
+
+.pulse {
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #28CC9E, #DDFEE4);
+  position: absolute;
+  -webkit-animation: ripple 3s linear infinite;
+  animation: ripple 3s linear infinite;
+  left: 35%;
+  width: 145px;
+  height: 145px;
+  margin: auto;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 5px #a5f7e0;
+  }
+}
+
+.status {
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  top: 35%;
+}
+
+
+
+
+
